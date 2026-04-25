@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Danh muc san phan</h2>
+    <div id="category" class="category__list">
+</div>
+
+    <h2>Danh sach san pham</h2>
+<div class="search" id="search">
+    <input type="text">
+    <button>Search</button>
+</div>
+
+
+   <select id="filter">
+            <option value="macdinh">Mac dinh</option>
+            <option value="giathapdencao">Gia thap den cao</option>
+            <option value="giacaodenthap">Gia cao den thap</option>
+            <option value="giagiamnhieu">Gia giam nhieu</option>
+        </select>
+
+    <div id="product" class="product__list">
+
+    </div>
+
+    <div class="pagination">
+        <span id="paginationPrev">prev</span>
+        <span id="paginationNumber">1</span>
+        <span id="paginationNext">next</span>
+    </div>
+
+
+    
+     
+   
+
+    <script  type="module" src="js/category.js"></script>
+    <script  type="module"   src="js/product.js"></script>
+</body>
+</html>
